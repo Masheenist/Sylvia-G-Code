@@ -1,0 +1,8 @@
+% 				; initializes printer
+G90				; sets absolute positioning
+M82				; extruder set to absolute positioning
+G28.1 X0 Y0 Z0	; sets home coordinates
+G0 X10			; moves extruder on X axis to absolute 10
+G28				; return to home
+M84				; turn off bed
+M30				; end of program return to top
